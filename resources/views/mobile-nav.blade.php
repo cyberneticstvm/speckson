@@ -11,13 +11,15 @@
             <li>
                 <a class="main" href="{{ route('index') }}">Offers</a>
             </li>
-            <li class="has-dropdown">
-                <a class="nav-link" href="#">Blogs</a>
-                <ul class="submenu">
-                    <li class="lim"><a class="sdm-main" href="blog.html">Coming Soon</a></li>
+            <li class="has-droupdown">
+                <a href="#" class="main">Blogs</a>
+                <ul class="submenu mm-collapse">
+                    <li><a class="mobile-menu-link" href="blog.html">Coming Soon</a></li>
                 </ul>
             </li>
-            <li><a href="contact.html" class="main">Contact</a></li>
+            <li>
+                <a href="contact.html" class="main">Contact Us</a>
+            </li>
         </ul>
     </nav>
 

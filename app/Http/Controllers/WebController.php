@@ -51,4 +51,12 @@ class WebController extends Controller
         ]);*/
         return view('index', compact('title', 'description', 'keywords'));
     }
+
+    function contact()
+    {
+        $title = "Speckson | Premium Eye Wear";
+        $description = "";
+        $keywords = "";
+        return view('contact', compact('title', 'description', 'keywords'));
+    }
 }

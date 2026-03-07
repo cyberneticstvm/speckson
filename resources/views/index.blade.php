@@ -1,163 +1,111 @@
 @extends("base")
 @section("content")
-<div class="rts-right-content-area">
+<!-- rts-banner-area -->
+<div class="rts-banner-area-start-one pb--0">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="banner-laft-compleate-project">
-                    <img src="{{ asset('/assets/images/banner/02.svg') }}" alt="banner">
-                </div>
-                <div class="thumbnail-banner-08">
-                    <img src="{{ asset('/assets/images/banner/01.svg') }}" alt="banner">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <!-- Portfolio start -->
-                <div class="rts-about-right-area-eight bottom-1 rts-section-separator-right">
-                    <div class="title-style-left mb--30">
-                        <div class="pre-title-area">
-                            <img src="{{ asset('/assets/images/about/02.png') }}" alt="about">
-                            <span class="pre-title">Glasses</span>
+            <div class="col-lg-12">
+                <div class="float-right-content">
+                    <div class="swiper mySwiper-banner-one-1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <!-- single-swiper-area start -->
+                                <div class="signle-swiper-start">
+                                    <div class="thumbnail-banner-one">
+                                        <img src="{{ asset('/assets/images/product/1.png') }}" alt="banner">
+                                    </div>
+                                </div>
+                                <!-- single-swiper-area end -->
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- single-swiper-area start -->
+                                <div class="signle-swiper-start">
+                                    <div class="thumbnail-banner-one">
+                                        <img src="{{ asset('/assets/images/product/2.png') }}" alt="banner">
+                                    </div>
+                                </div>
+                                <!-- single-swiper-area end -->
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- single-swiper-area start -->
+                                <div class="signle-swiper-start">
+                                    <div class="thumbnail-banner-one">
+                                        <img src="{{ asset('/assets/images/product/3.png') }}" alt="banner">
+                                    </div>
+                                </div>
+                                <!-- single-swiper-area end -->
+                            </div>
                         </div>
-                        <h3 class="title">Products</h3>
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <div class="row g-5">
-                        <div class="col-lg-12">
-                            <div class="single-project-style-8">
-                                <a href="product-details-1.html" class="thumbnail">
-                                    <img src="{{ asset('/assets/images/product/01.svg') }}" alt="product">
-                                    <div class="tags">
-                                        <span>Speckson</span>
-                                        <span>Eye Glass</span>
-                                    </div>
-                                </a>
-                                <div class="title-area">
-                                    <a href="product-details-1.html">
-                                        <h4 class="title">Speckson Eye Glass<i
-                                                class="fa-regular fa-chevron-right"></i></h4>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="single-project-style-8">
-                                <a href="product-details-1.html" class="thumbnail">
-                                    <img src="{{ asset('/assets/images/product/02.svg') }}" alt="product">
-                                    <div class="tags">
-                                        <span>Speckson</span>
-                                        <span>Eye Glass</span>
-                                    </div>
-                                </a>
-                                <div class="title-area">
-                                    <a href="product-details-1.html">
-                                        <h4 class="title">Speckson Eye Glass<i
-                                                class="fa-regular fa-chevron-right"></i></h4>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="single-project-style-8">
-                                <a href="product-details-1.html" class="thumbnail">
-                                    <img src="{{ asset('/assets/images/product/03.svg') }}" alt="product">
-                                    <div class="tags">
-                                        <span>Speckson</span>
-                                        <span>Eye Glass</span>
-                                    </div>
-                                </a>
-                                <div class="title-area">
-                                    <a href="product-details-1.html">
-                                        <h4 class="title">Speckson Eye Glass<i
-                                                class="fa-regular fa-chevron-right"></i></h4>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio end -->
-                <!-- Portfolio start -->
-                <div class="rts-about-right-area-eight bottom-1 rts-section-separator-right">
-                    <div class="row g-5">
-                        <div class="col-lg-12">
-                            <div class="single-project-style-8">
-                                <a href="product-details-1.html" class="thumbnail">
-                                    <img src="{{ asset('/assets/images/product/01.svg') }}" alt="product">
-                                    <div class="tags">
-                                        <span>Speckson</span>
-                                        <span>Eye Glass</span>
-                                    </div>
-                                </a>
-                                <div class="title-area">
-                                    <a href="product-details-1.html">
-                                        <h4 class="title">Speckson Eye Glass<i
-                                                class="fa-regular fa-chevron-right"></i></h4>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="single-project-style-8">
-                                <a href="product-details-1.html" class="thumbnail">
-                                    <img src="{{ asset('/assets/images/product/02.svg') }}" alt="product">
-                                    <div class="tags">
-                                        <span>Speckson</span>
-                                        <span>Eye Glass</span>
-                                    </div>
-                                </a>
-                                <div class="title-area">
-                                    <a href="product-details-1.html">
-                                        <h4 class="title">Speckson Eye Glass<i
-                                                class="fa-regular fa-chevron-right"></i></h4>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="single-project-style-8">
-                                <a href="product-details-1.html" class="thumbnail">
-                                    <img src="{{ asset('/assets/images/product/03.svg') }}" alt="product">
-                                    <div class="tags">
-                                        <span>Speckson</span>
-                                        <span>Eye Glass</span>
-                                    </div>
-                                </a>
-                                <div class="title-area">
-                                    <a href="product-details-1.html">
-                                        <h4 class="title">Speckson Eye Glass<i
-                                                class="fa-regular fa-chevron-right"></i></h4>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio end -->
-
-                <!-- Contact Me start -->
-                <div class="rts-about-right-area-eight bottom-1 rts-section-separator-right">
-                    <div class="title-style-left mb--30">
-                        <div class="pre-title-area">
-                            <img src="{{ asset('/assets/images/about/02.png') }}" alt="about">
-                            <span class="pre-title">Get In Touch</span>
-                        </div>
-                        <h3 class="title">Contact Us</h3>
-                    </div>
-                    <form action="#" class="form-8">
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="text" placeholder="Your Number">
-                        <input type="text" placeholder="Service Type">
-                        <input type="text" placeholder="Your Location">
-                        <button class="rts-btn btn-border">Send Now</button>
-                    </form>
-                </div>
-                <!-- Contact Me end -->
-                <div class="copyright-8">
-                    <p>Copyright {{ date('Y') }}. All Rights Reserved.
-                    </p>
                 </div>
             </div>
         </div>
     </div>
+    <div class="left-swiper-area-start">
+        <div class="right-shape">
+            <img src="{{ asset('/assets/images/banner/icon/03.png') }}" alt="">
+        </div>
+        <div class="swiper mySwiper-banner-oneleft">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <!-- single swiper area start -->
+                    <div class="single-left-banner-swiper-start">
+                        <span class="pre">Full Rim</span>
+                        <h3 class="title">
+                            Brand Name:<br>
+                            Model:<br>
+                            Material:
+                        </h3>
+                        <p class="disc">
+                            Dia: , Temple Size: , Bridge Size: Product Weight:
+                        </p>
+                        <a href="#" class="rts-btn btn-border">View Details</a>
+                    </div>
+                    <!-- single swiper area end -->
+                </div>
+                <div class="swiper-slide">
+                    <!-- single swiper area start -->
+                    <div class="single-left-banner-swiper-start">
+                        <span class="pre">Semi Rim</span>
+                        <h3 class="title">
+                            Brand Name:<br>
+                            Model:<br>
+                            Material:
+                        </h3>
+                        <p class="disc">
+                            Dia: , Temple Size: , Bridge Size: Product Weight:
+                        </p>
+                        <a href="#" class="rts-btn btn-border">View Details</a>
+                    </div>
+                    <!-- single swiper area end -->
+                </div>
+                <div class="swiper-slide">
+                    <!-- single swiper area start -->
+                    <div class="single-left-banner-swiper-start">
+                        <span class="pre">Rimless</span>
+                        <h3 class="title">
+                            Brand Name:<br>
+                            Model:<br>
+                            Material:
+                        </h3>
+                        <p class="disc">
+                            Dia: , Temple Size: , Bridge Size: Product Weight:
+                        </p>
+                        <a href="#" class="rts-btn btn-border">View Details</a>
+                    </div>
+                    <!-- single swiper area end -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pagination-left-banner-one">
+        <div class="activeslide">1</div>
+        <div class="swiper-paginations"></div>
+        <div class="totalslide">3</div>
+        <!-- </div> -->
+    </div>
 </div>
+<!-- rts-banner-area end -->
 @endsection

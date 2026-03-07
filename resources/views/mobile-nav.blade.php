@@ -6,10 +6,13 @@
                 <a class="main" href="{{ route('index') }}">Glasses</a>
             </li>
             <li>
-                <a class="main" href="{{ route('index') }}">Contact Lenses</a>
+                <a class="main" href="{{ route('index') }}">Full Rim</a>
             </li>
             <li>
-                <a class="main" href="{{ route('index') }}">Offers</a>
+                <a class="main" href="{{ route('index') }}">Semi Rim</a>
+            </li>
+            <li>
+                <a class="main" href="{{ route('index') }}">Rimless</a>
             </li>
             <li class="has-droupdown">
                 <a href="#" class="main">Blogs</a>
@@ -18,7 +21,7 @@
                 </ul>
             </li>
             <li>
-                <a href="contact.html" class="main">Contact Us</a>
+                <a href="{{ route('contact') }}" class="main">Contact Us</a>
             </li>
         </ul>
     </nav>

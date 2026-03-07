@@ -7,13 +7,16 @@
             <nav class="navigation">
                 <ul class="parent-ul">
                     <li>
-                        <a class="nav-link" href="{{ route('index') }}">Glasses</a>
+                        <a class="nav-link" href="{{ route('index') }}">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="{{ route('index') }}">Contact Lenses</a>
+                        <a class="nav-link" href="{{ route('index') }}">Full Rim</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="{{ route('index') }}">Offers</a>
+                        <a class="nav-link" href="{{ route('index') }}">Semi Rim</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="{{ route('index') }}">Rimless</a>
                     </li>
                     <li class="has-dropdown">
                         <a class="nav-link" href="#">Blogs</a>
@@ -21,7 +24,7 @@
                             <li class="lim"><a class="sdm-main" href="blog.html">Coming Soon</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </nav>
         </div>

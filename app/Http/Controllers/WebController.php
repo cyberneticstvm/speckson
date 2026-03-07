@@ -13,7 +13,7 @@ class WebController extends Controller
     {
         $this->open_api_key = config('myconfig.openai.key');
     }
-    function index()
+    function index(string $type)
     {
         $title = "Speckson | Premium Eye Wear";
         $description = "";

@@ -1,5 +1,5 @@
 <header class="header-three eight five header--sticky" style="position: relative;">
-    <a href="{{ route('index') }}" class="logo-area">
+    <a href="{{ route('index', 'all') }}" class="logo-area">
         <img src="{{ asset('/assets/images/logo/speckson.svg') }}" alt="logo" width="35%">
     </a>
     <div class="header-right">
@@ -7,16 +7,16 @@
             <nav class="navigation">
                 <ul class="parent-ul">
                     <li>
-                        <a class="nav-link" href="{{ route('index') }}">Home</a>
+                        <a class="nav-link" href="{{ route('index', 'all') }}">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="{{ route('index') }}">Full Rim</a>
+                        <a class="nav-link" href="{{ route('index', 'frim') }}">Full Rim</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="{{ route('index') }}">Semi Rim</a>
+                        <a class="nav-link" href="{{ route('index', 'srim') }}">Semi Rim</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="{{ route('index') }}">Rimless</a>
+                        <a class="nav-link" href="{{ route('index', 'rless') }}">Rimless</a>
                     </li>
                     <li class="has-dropdown">
                         <a class="nav-link" href="#">Blogs</a>

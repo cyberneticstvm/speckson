@@ -3,16 +3,16 @@
     <nav class="nav-main mainmenu-nav mt--30">
         <ul class="mainmenu metismenu" id="mobile-menu-active">
             <li>
-                <a class="main" href="{{ route('index') }}">Glasses</a>
+                <a class="main" href="{{ route('index', 'all') }}">Glasses</a>
             </li>
             <li>
-                <a class="main" href="{{ route('index') }}">Full Rim</a>
+                <a class="main" href="{{ route('index', 'frim') }}">Full Rim</a>
             </li>
             <li>
-                <a class="main" href="{{ route('index') }}">Semi Rim</a>
+                <a class="main" href="{{ route('index', 'srim') }}">Semi Rim</a>
             </li>
             <li>
-                <a class="main" href="{{ route('index') }}">Rimless</a>
+                <a class="main" href="{{ route('index', 'rless') }}">Rimless</a>
             </li>
             <li class="has-droupdown">
                 <a href="#" class="main">Blogs</a>
